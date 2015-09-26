@@ -31,3 +31,7 @@ for value in intArray {
 }
 sum
 
+// Example 3: Fast enumeration with Dictionary!
+var movieDict = ["Star Wars": "George Lucas", "Point Break": "Kathryn Bigelow", "When Harry Met Sally": "Rob Reiner", "The Dark Knight": "Christopher Nolan"]
+// 
+
