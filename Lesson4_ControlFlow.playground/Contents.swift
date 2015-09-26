@@ -33,5 +33,15 @@ sum
 
 // Example 3: Fast enumeration with Dictionary!
 var movieDict = ["Star Wars": "George Lucas", "Point Break": "Kathryn Bigelow", "When Harry Met Sally": "Rob Reiner", "The Dark Knight": "Christopher Nolan"]
-// 
 
+// Here's a for-in loop that prints out the directors of each movie in movieDict.
+
+for (movie, director) in movieDict {
+    print("\(director) directed \(movie)")
+}
+
+// Example 4" More fast enumeration with Dictionaries 
+var animalGroupDict = ["whales": "pod", "geese": "flock", "lions": "pride"]
+for (animals, animalGroup) in animalGroupDict {
+    print("Many \(animals) form a \(animalGroup).")
+}
