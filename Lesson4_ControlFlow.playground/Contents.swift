@@ -58,10 +58,27 @@ while timer > 0 {
     --timer
 }
 
+// Example 2: 
+while beerVolume > 12.0
+var sip = 0.3
 
+while beerVolume > 0 {
+    print("Cheers!")
+    beerVolume -= sip
+}
 
+// Do-While loops 
+// do {
+//    statement
+// } while condition
 
-
+do {
+    --timer
+} whie timer > 0
+do {
+    print ("Cheers!")
+    beerVolume -= sip
+} while beerVolume > 0 
 
 
 
