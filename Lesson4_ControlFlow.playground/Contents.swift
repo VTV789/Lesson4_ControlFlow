@@ -45,3 +45,26 @@ var animalGroupDict = ["whales": "pod", "geese": "flock", "lions": "pride"]
 for (animals, animalGroup) in animalGroupDict {
     print("Many \(animals) form a \(animalGroup).")
 }
+
+// III. While loops 
+// While loops take the form:
+// while condition {
+// statement 
+// }
+
+// Example:
+var timer = 10
+while timer > 0 {
+    --timer
+}
+
+
+
+
+
+
+
+
+
+
+
